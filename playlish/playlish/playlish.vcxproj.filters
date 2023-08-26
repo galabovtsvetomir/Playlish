@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="playlish.cpp" />
+    <ClCompile Include="Common\Navigator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\AuthController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\MenuController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\SongController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\App.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\GenreController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\PlaylistController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\PlaylistSongsController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Playlist.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controllers\AuthController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\MenuController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\SongController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\PlaylistController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\SearchController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Navigator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\App.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\GenreController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DB.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\User.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Controller.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\PlaylistSongsController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Playlist.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\menu.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{257d94f3-e306-4c73-9710-9601ce239588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e6d77161-042d-4970-9034-97cf94b84b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9068744b-cc65-4017-a98b-498fbb52cb3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

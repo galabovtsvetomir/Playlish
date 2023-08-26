@@ -1,0 +1,7 @@
+﻿  Navigator.cpp
+  MenuController.cpp
+  SearchController.cpp
+D:\playlish\playlish\SearchController.cpp(8,11): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  Generating Code...
+  playlish.vcxproj -> D:\playlish\Debug\playlish.exe
+  0 File(s) copied
